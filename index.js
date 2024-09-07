@@ -3,7 +3,7 @@ import bodyParser from "body-parser";
 import { Customer, Order, OrderDetail, Product } from "./gestionComande.js";
 
 const app = express();
-const port = 3080;
+const port = 3090;
 app.use(bodyParser.json());
 app.get("/", (req, res) => {
   res.send("Bonjour les simploniens");
